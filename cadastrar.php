@@ -110,6 +110,9 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
   document.getElementById("opções").addEventListener("click", function() {
     window.location.href = "formulario.php";
   });
+  document.getElementById("cadastrar").addEventListener("click", function() {
+    window.location.href = "futuro_menu.php";
+  });
 
   </script>
  

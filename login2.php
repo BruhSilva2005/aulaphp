@@ -117,7 +117,7 @@ if($_SERVER['REQUEST_METHOD']==='POST'){
     </div>
     <script>
   document.getElementById("logar").addEventListener("click", function() {
-    window.location.href = "login.php";
+    window.location.href = "menu.php";
   });
 
   document.getElementById("cadastrar").addEventListener("click", function() {
